@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head> 
+    <title>Book Review: Perl For Web Site Management</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+  </head> 
+
+  <body> 
+    <h1>dave.org.uk</h1> 
+
+    <div class="menu">
+      <h3>Book reviews</h3>
+
+
+    <a href="http://dave.org.uk/reviews/adv-webmet.html">Advanced Web Metrics with Google Analytics</a>
+
+    <a href="http://dave.org.uk/reviews/apache-pock.html">Apache 2 Pocket Reference</a>
+
+    <a href="http://dave.org.uk/reviews/catalyst.html">Catalyst</a>
+
+    <a href="http://dave.org.uk/reviews/dbdepth.html">Database in Depth</a>
+
+    <a href="http://dave.org.uk/reviews/mason.html">Embedding Perl in HTML with Mason</a>
+
+    <a href="http://dave.org.uk/reviews/google-an.html">Google Analytics</a>
+
+    <a href="http://dave.org.uk/reviews/google-apps.html">Google Apps Hacks</a>
+
+    <a href="http://dave.org.uk/reviews/html5.html">HTML5: Up and Running</a>
+
+    <a href="http://dave.org.uk/reviews/mp-cook.html">mod_perl Developer's Cookbook</a>
+
+    <a href="http://dave.org.uk/reviews/website.html">Perl For Web Site Management</a>
+
+    <a href="http://dave.org.uk/reviews/perlhacks.html">Perl Hacks</a>
+
+    <a href="http://dave.org.uk/reviews/medic.html">Perl Medic</a>
+
+    <a href="http://dave.org.uk/reviews/prac-mp.html">Practical mod_perl</a>
+
+    <a href="http://dave.org.uk/reviews/rh-bible.html">Red Hat Linux 8 Bible</a>
+
+    <a href="http://dave.org.uk/reviews/slash.html">Running Weblogs with Slash</a>
+
+    <a href="http://dave.org.uk/reviews/catalyst-def.html">The Definitive Guide to Catalyst</a>
+
+    <a href="http://dave.org.uk/reviews/socialmedia.html">The Social Media Marketing Book</a>
+
+    <a href="http://dave.org.uk/reviews/ap-perl.html">Web Development with Apache and Perl</a>
+
+    <a href="http://dave.org.uk/reviews/webmeas.html">Web Site Measurement Hacks</a>
+
+    <a href="http://dave.org.uk/reviews/cgi-perl.html">Writing CGI Applications With Perl</a>
+
+    <a href="http://dave.org.uk/reviews/xmlperl.html">XML and Perl</a>
+
+    <a href="http://dave.org.uk/reviews/xmlhacks.html">XML Hacks</a>
+
+      <hr />
+      <a href="/">Back to Main Site</a>
+    </div> 
+
+    <div class="content"> 
+    <h2>Book Review:<br />Perl For Web Site Management</h2> 
+
+    <table> 
+      <tr> 
+        <th>Author(s):</th> 
+        <td>John Callender</td> 
+      </tr> 
+      <tr> 
+        <th>Publisher:</th> 
+        <td>O'Reilly (2002)</td> 
+      </tr> 
+      <tr> 
+        <th>ISBN:</th> 
+        <td>1565926471</td> 
+      </tr> 
+
+      <tr> 
+        <th>Web Site:</th> 
+        <td><a href="http://oreilly.com/catalog/9781565926479/">http://oreilly.com/catalog/9781565926479/</a></td> 
+      </tr>
+
+      <tr> 
+        <th>Reviewer:</th> 
+        <td><a href="mailto:dave@dave.org.uk">Dave Cross</a></td> 
+      </tr> 
+    </table> 
+    <p class="buy"><img src="http://images-eu.amazon.com/images/P/1565926471.02._SCMZZZZZZZ_" /><br /> 
+    <a href="http://www.amazon.co.uk/exec/obidos/ASIN/1565926471/davblog-21">Buy from Amazon</a></p> 
+ 
+    <hr /> 
+ 
+    <p>First things first. This isn't the book that I thought it was
+going to be. I was expecting to read a book that taught experienced
+programmers some Perl tricks that made it easier to manage a web site -
+something like a companion piece to O'Reilly's <i>Perl for System 
+Administration</i> by David Blank-Edelman. Turns out that's not what
+this book is at all.</p><p>Instead, it's an introduction to Perl for someone who runs a web 
+site and decides that they need to take their computer knowledge to the
+next level and learn some programming skills. Callender calls these people
+"accidental programmers" and he is very understanding of their needs 
+having been one himself only a few years ago.</p><p>So immediately this book has a completely different target 
+audience to the majority of O'Reilly's Perl books. It's competing against
+all the brightly coloured books with titles like <i>Perl for Morons</i>
+or <i>Learn Perl in 30 Seconds</i>. These books are, almost without
+exception, written by people with minimal Perl knowledge, to it should
+come as no surprise that Callender's book is vastly superior to all of
+them.</p><p>The first major advantage that this book has is that it doesn't
+simply try to sell Perl as "the CGI language". Callender is at pains to
+point out that Perl can be useful for any number of other tasks involved
+in running a web site. Very early on we are looking at updating the
+links in an HTML file using regular expressions (and there's even a
+discussion on the fragility of this approach and pointers to better
+solutions using CPAN modules). A little later on we are looking at writing
+reports on web site hits by parsing the access logs. This is the kind of
+work that Perl excels at - the fact that you can you use the same language
+to write CGI programs as well should be seen as a bonus.</p><p>As I mentioned before, Callender is not a programmer by training
+(this is sometimes obvious from his code examples) but he has obviously
+learned from good sources. He encourages all the good habits that are
+missing from most of his competitors books - all of his examples use 
+<code>-w</code> and <code>use strict</code> and all of CGI programs are
+written using CGI.pm. There's even a far more detailed explaination of
+the importance of security and taint mode than I've seen in any book
+aimed at this audience. Another bonus is the discussion of the necessity
+and mechanics of file locking.</p><p>Another topic that often missing from beginners books is the huge
+library of ready-written Perl modules called the CPAN. Many authors seem
+to think that this concept is beyond their audience and thereby many
+newcomers to Perl never discover this treasure chest and spend their
+entire programming life studiously reinventing wheels unnecessarily.
+Callender has no time for this point of view and in the middle of
+chapter 11 he has use downloading and installing modules from CPAN.
+This approach is bound to lead to more productive Perl programmers.</p><p>I mentioned that Callender was himself an accidental programmer.
+This means that the chapters are full of anecdotes of the kind of 
+problems he experienced when first starting to program in Perl. As well
+as learning about programming in general, Perl and CGI, most of the book's
+target audience will be Windows or Mac users who have no knowledge of
+Unix and, in most cases, that's the operating system that their web server
+will be running on. Once again, Callender has already made this journey
+and he proves to be a most able guide.</p><p>So, all in all, I think this is a great book. If you're thinking
+that you need to learn some Perl in order to add CGI programs to your
+web site, then please consider this book before any of the other beginners
+Perl and CGI books. You'll end up with a much better understanding after
+reading this book. But this leads me to my only problem with the book.
+I'm really not convinced that the people who are in the target audience will
+pick up this book when they are browsing in a bookstore. I think that 
+O'Reilly books are seen as being for experts and I also think that the
+title doesn't explain the contents of the book very well.</p><p>I could, of course, be wrong. I hope I am.</p>
+ 
+    </div>
+    <div class="ads"> 
+<script type="text/javascript"><!--
+google_ad_client = "pub-3663319204757145";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_type = "text";
+google_ad_channel ="1500923594";
+google_color_border = "CCCCCC";
+google_color_bg = "FFFFFF";
+google_color_link = "000000";
+google_color_url = "666666";
+google_color_text = "333333";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div> 
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+var pageTracker = _gat._getTracker("UA-56332-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script> 
+  </body> 
+</html> 

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head> 
+    <title>Book Review: Database in Depth</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+  </head> 
+
+  <body> 
+    <h1>dave.org.uk</h1> 
+
+    <div class="menu">
+      <h3>Book reviews</h3>
+
+
+    <a href="http://dave.org.uk/reviews/adv-webmet.html">Advanced Web Metrics with Google Analytics</a>
+
+    <a href="http://dave.org.uk/reviews/apache-pock.html">Apache 2 Pocket Reference</a>
+
+    <a href="http://dave.org.uk/reviews/catalyst.html">Catalyst</a>
+
+    <a href="http://dave.org.uk/reviews/dbdepth.html">Database in Depth</a>
+
+    <a href="http://dave.org.uk/reviews/mason.html">Embedding Perl in HTML with Mason</a>
+
+    <a href="http://dave.org.uk/reviews/google-an.html">Google Analytics</a>
+
+    <a href="http://dave.org.uk/reviews/google-apps.html">Google Apps Hacks</a>
+
+    <a href="http://dave.org.uk/reviews/html5.html">HTML5: Up and Running</a>
+
+    <a href="http://dave.org.uk/reviews/mp-cook.html">mod_perl Developer's Cookbook</a>
+
+    <a href="http://dave.org.uk/reviews/website.html">Perl For Web Site Management</a>
+
+    <a href="http://dave.org.uk/reviews/perlhacks.html">Perl Hacks</a>
+
+    <a href="http://dave.org.uk/reviews/medic.html">Perl Medic</a>
+
+    <a href="http://dave.org.uk/reviews/prac-mp.html">Practical mod_perl</a>
+
+    <a href="http://dave.org.uk/reviews/rh-bible.html">Red Hat Linux 8 Bible</a>
+
+    <a href="http://dave.org.uk/reviews/slash.html">Running Weblogs with Slash</a>
+
+    <a href="http://dave.org.uk/reviews/catalyst-def.html">The Definitive Guide to Catalyst</a>
+
+    <a href="http://dave.org.uk/reviews/socialmedia.html">The Social Media Marketing Book</a>
+
+    <a href="http://dave.org.uk/reviews/ap-perl.html">Web Development with Apache and Perl</a>
+
+    <a href="http://dave.org.uk/reviews/webmeas.html">Web Site Measurement Hacks</a>
+
+    <a href="http://dave.org.uk/reviews/cgi-perl.html">Writing CGI Applications With Perl</a>
+
+    <a href="http://dave.org.uk/reviews/xmlperl.html">XML and Perl</a>
+
+    <a href="http://dave.org.uk/reviews/xmlhacks.html">XML Hacks</a>
+
+      <hr />
+      <a href="/">Back to Main Site</a>
+    </div> 
+
+    <div class="content"> 
+    <h2>Book Review:<br />Database in Depth</h2> 
+
+    <table> 
+      <tr> 
+        <th>Author(s):</th> 
+        <td>Chris Date</td> 
+      </tr> 
+      <tr> 
+        <th>Publisher:</th> 
+        <td>O'Reilly (2005)</td> 
+      </tr> 
+      <tr> 
+        <th>ISBN:</th> 
+        <td>0596100124</td> 
+      </tr> 
+
+      <tr> 
+        <th>Web Site:</th> 
+        <td><a href="http://">http://</a></td> 
+      </tr>
+
+      <tr> 
+        <th>Reviewer:</th> 
+        <td><a href="mailto:dave@dave.org.uk">Dave Cross</a></td> 
+      </tr> 
+    </table> 
+    <p class="buy"><img src="http://images-eu.amazon.com/images/P/0596100124.02._SCMZZZZZZZ_" /><br /> 
+    <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0596100124/davblog-21">Buy from Amazon</a></p> 
+ 
+    <hr /> 
+ 
+    <div>Many years ago when I was a student we were taught database theory. Although Ted Codd's paper A Relational Model of Data for Large Shared Data Banks had been published fifteen years earlier, relational databases hadn't yet become the dominant species and we were taught a number of alternatives (does anyone else remember Codasyl?) systems - relational databases and SQL were just the newest option.</div><div><br /></div><div>Of course, once I left college and started working for a living, it wasn't long before relational databases were the only game in town. And over the years I've forgotten most of the non-relational theory that I once knew. Or, at least, that's what I thought. Reading this book, I realise that I had forgotten most of the relational theory too.</div><div><br /></div><div>The relational model is what underpins most of the databases that we use in our day-to-day work. But in many ways, the databases that we use today have diverged greatly from Codd's original ideas. Many of the features of todays databases would have no place in a purely relational database.</div><div><br /></div><div>And that is what Chris Date's latest book is all about. He reminds us of what a really relational database would look like and points out where current implementations fall short. In particular, it's clear that Date blames the ubiquity of SQL for most of these problems. SQL, he reminds us, started out as an attempt to put a user-friendly(!) query language on top of the relational model. When that didn't really work out, instead of going back to square one and trying to implement a better relational query language the database vendors instead stuck with SQL and ignored the bits of the relational model which it couldn't support. For most of the examples in the book, Date gives an SQL query alongside the same query rewritten in "Tutorial D" a relational query language of his own creation.</div><div><br /></div><div>The book does contain a useful introduction to the relational model, but I have to say that in doing so it uses some mathematics that many potential readers might find a bit galling. Personally, I'd be very happy if more database practioners understood the underlying maths to the level required to read this book as that would hopefully mean an increase in the average quality of the database designs that I come across.</div><div><br /></div><div>Date is at his most interesting when he is talking about the advantages that a "proper" relational database implementation would bring us. As he says in a recent interview:</div><div><br /></div><div>As far as I'm concerned, an object/relational system done right would simply be a relational system done right, nothing more and nothing less.</div><div>There are some exciting possibilities in a truely relational database, but it would mean the industry admitting that its current implementations are flawed. And I don't see that happening.</div><div><br /></div><div>If you work with databases and you have any interest in the mathematical theories behind how your database works, then I recommend you read this book. You'll come out with a deeper understanding of your current database system. But, perhaps more importantly, you'll also have a slight sense of disappointment when you realise how good your database could be.</div> 
+ 
+    </div>
+    <div class="ads"> 
+<script type="text/javascript"><!--
+google_ad_client = "pub-3663319204757145";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_type = "text";
+google_ad_channel ="1500923594";
+google_color_border = "CCCCCC";
+google_color_bg = "FFFFFF";
+google_color_link = "000000";
+google_color_url = "666666";
+google_color_text = "333333";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div> 
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+var pageTracker = _gat._getTracker("UA-56332-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script> 
+  </body> 
+</html> 
