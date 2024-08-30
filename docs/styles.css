@@ -45,6 +45,10 @@ a:hover {
     text-decoration: underline;
 }
 
+img {
+  max-width: 20%;
+}
+
 .small {
     font-size: smaller;
 }
