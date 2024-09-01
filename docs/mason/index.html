@@ -1,67 +1,69 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head> 
-    <title>Book Review: Embedding Perl in HTML with Mason</title> 
-    <link rel="stylesheet" type="text/css" href="styles.css" /> 
-  </head> 
+  <head>
+    <title>Book Reviews</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+  </head>
 
-  <body> 
-    <h1>dave.org.uk</h1> 
+  <body>
+    <h1>dave.org.uk</h1>
 
     <div class="menu">
       <h3>Book reviews</h3>
 
 
-    <a href="/reviews/adv-webmet.html">Advanced Web Metrics with Google Analytics</a>
+    <a href="/adv-webmet/">Advanced Web Metrics with Google Analytics</a>
 
-    <a href="/reviews/apache-pock.html">Apache 2 Pocket Reference</a>
+    <a href="/apache-pock/">Apache 2 Pocket Reference</a>
 
-    <a href="/reviews/catalyst.html">Catalyst</a>
+    <a href="/catalyst/">Catalyst</a>
 
-    <a href="/reviews/dbdepth.html">Database in Depth</a>
+    <a href="/dbdepth/">Database in Depth</a>
 
-    <a href="/reviews/mason.html">Embedding Perl in HTML with Mason</a>
+    <a href="/mason/">Embedding Perl in HTML with Mason</a>
 
-    <a href="/reviews/google-an.html">Google Analytics</a>
+    <a href="/fitness-for-geeks/">Fitness For Geeks</a>
 
-    <a href="/reviews/google-apps.html">Google Apps Hacks</a>
+    <a href="/google-an/">Google Analytics</a>
 
-    <a href="/reviews/html5.html">HTML5: Up and Running</a>
+    <a href="/google-apps/">Google Apps Hacks</a>
 
-    <a href="/reviews/mp-cook.html">mod_perl Developer's Cookbook</a>
+    <a href="/html5/">HTML5: Up and Running</a>
 
-    <a href="/reviews/website.html">Perl For Web Site Management</a>
+    <a href="/mp-cook/">mod_perl Developer's Cookbook</a>
 
-    <a href="/reviews/perlhacks.html">Perl Hacks</a>
+    <a href="/website/">Perl For Web Site Management</a>
 
-    <a href="/reviews/medic.html">Perl Medic</a>
+    <a href="/perlhacks/">Perl Hacks</a>
 
-    <a href="/reviews/prac-mp.html">Practical mod_perl</a>
+    <a href="/medic/">Perl Medic</a>
 
-    <a href="/reviews/rh-bible.html">Red Hat Linux 8 Bible</a>
+    <a href="/prac-mp/">Practical mod_perl</a>
 
-    <a href="/reviews/slash.html">Running Weblogs with Slash</a>
+    <a href="/rh-bible/">Red Hat Linux 8 Bible</a>
 
-    <a href="/reviews/catalyst-def.html">The Definitive Guide to Catalyst</a>
+    <a href="/slash/">Running Weblogs with Slash</a>
 
-    <a href="/reviews/socialmedia.html">The Social Media Marketing Book</a>
+    <a href="/catalyst-def/">The Definitive Guide to Catalyst</a>
 
-    <a href="/reviews/ap-perl.html">Web Development with Apache and Perl</a>
+    <a href="/socialmedia/">The Social Media Marketing Book</a>
 
-    <a href="/reviews/webmeas.html">Web Site Measurement Hacks</a>
+    <a href="/ap-perl/">Web Development with Apache and Perl</a>
 
-    <a href="/reviews/cgi-perl.html">Writing CGI Applications With Perl</a>
+    <a href="/webmeas/">Web Site Measurement Hacks</a>
 
-    <a href="/reviews/xmlperl.html">XML and Perl</a>
+    <a href="/cgi-perl/">Writing CGI Applications With Perl</a>
 
-    <a href="/reviews/xmlhacks.html">XML Hacks</a>
+    <a href="/xmlperl/">XML and Perl</a>
+
+    <a href="/xmlhacks/">XML Hacks</a>
 
       <hr />
       <a href="/">Back to Main Site</a>
     </div> 
 
-    <div class="content"> 
+    <div class="content">
     <h2>Book Review:<br />Embedding Perl in HTML with Mason</h2> 
 
     <table> 
@@ -85,7 +87,7 @@
 
       <tr> 
         <th>Reviewer:</th> 
-        <td><a href="mailto:dave@dave.org.uk">Dave Cross</a></td> 
+        <td><a href="mailto:dave@davecross.co.uk">Dave Cross</a></td> 
       </tr> 
     </table> 
     <p class="buy"><img src="https://images.amazon.com/images/P/0596002254.jpg" /><br /> 
@@ -93,8 +95,44 @@
  
     <hr /> 
  
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"><span class="Apple-style-span" style="color: rgb(0, 0, 0); font-family: Verdana, sans-serif; "><p>If you're building dynamic web sites, then sooner or later you are going to come to the conclusion that your life will be much easier if you use some kind of templating system. A templating system prevents you from having the same pieces of HTML appearing in multiple places on your web site as each page is generated from a template which defines the parts of the page which are the same (site navigation, headers and footers, stuff like that) leaving you free to worry about the actual content which changes from page to page.</p><p>Mason is one such templating system that is available for use in Perl. There are a number of such systems but Mason is certainly one of the most popular and this book goes a long way towards explaining why. It's written by two of the core Mason development team and, as such, it covers the use of Mason in great detail.</p><p>The book starts with a look at the features that Mason gives you and a brief look at the major competitors to Mason. Whilst this is useful, I'm not sure that it gave me enough information to decide to use Mason instead of an alternative system. The authors assume that you don't need any coaching in Perl, so the don't waste any time explaining anything other than the Mason features that they are using.</p><p>Whilst it's possible to use Mason on a site that is created with CGI scripts, this can be a bit slow so most of the book is focussed on using Mason under mod_perl - the Apache module which embeds a Perl compiler in your web server.</p><p>One particularly useful chapter is the one which gives an extended case study of how the authors used Mason to build a new web site from scratch. This chapter contains valuable examples of the stages you can go through when building a site using Mason. Another standout section is the chapter on scalable design.</p><p>Although the book starts right from the basics of Mason usage, it won't stop being useful once you've mastered that. There are sections on very advanced Mason features like overriding the parser that extracts Mason commands from your source files and subclassing the various objects that make up Mason.</p><p>If you're looking at using a templating system on your web site then Mason is certainly one that you should consider. And if you are using (or planning to use) Mason, then this book looks like it will be essential reading.</p></span> 
- 
+<p>If you’re building dynamic web sites, then sooner or later you are
+going to come to the conclusion that your life will be much easier if
+you use some kind of templating system. A templating system prevents you
+from having the same pieces of HTML appearing in multiple places on your
+web site as each page is generated from a template which defines the
+parts of the page which are the same (site navigation, headers and
+footers, stuff like that) leaving you free to worry about the actual
+content which changes from page to page.</p>
+<p>Mason is one such templating system that is available for use in
+Perl. There are a number of such systems but Mason is certainly one of
+the most popular and this book goes a long way towards explaining why.
+It’s written by two of the core Mason development team and, as such, it
+covers the use of Mason in great detail.</p>
+<p>The book starts with a look at the features that Mason gives you and
+a brief look at the major competitors to Mason. Whilst this is useful,
+I’m not sure that it gave me enough information to decide to use Mason
+instead of an alternative system. The authors assume that you don’t need
+any coaching in Perl, so the don’t waste any time explaining anything
+other than the Mason features that they are using.</p>
+<p>Whilst it’s possible to use Mason on a site that is created with CGI
+scripts, this can be a bit slow so most of the book is focussed on using
+Mason under mod_perl - the Apache module which embeds a Perl compiler in
+your web server.</p>
+<p>One particularly useful chapter is the one which gives an extended
+case study of how the authors used Mason to build a new web site from
+scratch. This chapter contains valuable examples of the stages you can
+go through when building a site using Mason. Another standout section is
+the chapter on scalable design.</p>
+<p>Although the book starts right from the basics of Mason usage, it
+won’t stop being useful once you’ve mastered that. There are sections on
+very advanced Mason features like overriding the parser that extracts
+Mason commands from your source files and subclassing the various
+objects that make up Mason.</p>
+<p>If you’re looking at using a templating system on your web site then
+Mason is certainly one that you should consider. And if you are using
+(or planning to use) Mason, then this book looks like it will be
+essential reading.</p>
+
     </div>
     <div class="ads"> 
 <script type="text/javascript"><!--
@@ -114,14 +152,14 @@ google_color_text = "333333";
   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div> 
-<script type="text/javascript"> 
+<script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script> 
-<script type="text/javascript"> 
+</script>
+<script type="text/javascript">
 var pageTracker = _gat._getTracker("UA-56332-2");
 pageTracker._initData();
 pageTracker._trackPageview();
-</script> 
-  </body> 
+</script>
+  </body>
 </html> 

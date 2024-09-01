@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Book Reviews</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+  </head>
+
+  <body>
+    <h1>dave.org.uk</h1>
+
+    <div class="menu">
+      <h3>Book reviews</h3>
+
+
+    <a href="/adv-webmet/">Advanced Web Metrics with Google Analytics</a>
+
+    <a href="/apache-pock/">Apache 2 Pocket Reference</a>
+
+    <a href="/catalyst/">Catalyst</a>
+
+    <a href="/dbdepth/">Database in Depth</a>
+
+    <a href="/mason/">Embedding Perl in HTML with Mason</a>
+
+    <a href="/fitness-for-geeks/">Fitness For Geeks</a>
+
+    <a href="/google-an/">Google Analytics</a>
+
+    <a href="/google-apps/">Google Apps Hacks</a>
+
+    <a href="/html5/">HTML5: Up and Running</a>
+
+    <a href="/mp-cook/">mod_perl Developer's Cookbook</a>
+
+    <a href="/website/">Perl For Web Site Management</a>
+
+    <a href="/perlhacks/">Perl Hacks</a>
+
+    <a href="/medic/">Perl Medic</a>
+
+    <a href="/prac-mp/">Practical mod_perl</a>
+
+    <a href="/rh-bible/">Red Hat Linux 8 Bible</a>
+
+    <a href="/slash/">Running Weblogs with Slash</a>
+
+    <a href="/catalyst-def/">The Definitive Guide to Catalyst</a>
+
+    <a href="/socialmedia/">The Social Media Marketing Book</a>
+
+    <a href="/ap-perl/">Web Development with Apache and Perl</a>
+
+    <a href="/webmeas/">Web Site Measurement Hacks</a>
+
+    <a href="/cgi-perl/">Writing CGI Applications With Perl</a>
+
+    <a href="/xmlperl/">XML and Perl</a>
+
+    <a href="/xmlhacks/">XML Hacks</a>
+
+      <hr />
+      <a href="/">Back to Main Site</a>
+    </div> 
+
+    <div class="content">
+[% content %]
+    </div>
+    <div class="ads"> 
+<script type="text/javascript"><!--
+google_ad_client = "pub-3663319204757145";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_type = "text";
+google_ad_channel ="1500923594";
+google_color_border = "CCCCCC";
+google_color_bg = "FFFFFF";
+google_color_link = "000000";
+google_color_url = "666666";
+google_color_text = "333333";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div> 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-56332-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+  </body>
+</html> 

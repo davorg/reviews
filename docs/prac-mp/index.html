@@ -1,67 +1,69 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head> 
-    <title>Book Review: Practical mod_perl</title> 
-    <link rel="stylesheet" type="text/css" href="styles.css" /> 
-  </head> 
+  <head>
+    <title>Book Reviews</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+  </head>
 
-  <body> 
-    <h1>dave.org.uk</h1> 
+  <body>
+    <h1>dave.org.uk</h1>
 
     <div class="menu">
       <h3>Book reviews</h3>
 
 
-    <a href="/reviews/adv-webmet.html">Advanced Web Metrics with Google Analytics</a>
+    <a href="/adv-webmet/">Advanced Web Metrics with Google Analytics</a>
 
-    <a href="/reviews/apache-pock.html">Apache 2 Pocket Reference</a>
+    <a href="/apache-pock/">Apache 2 Pocket Reference</a>
 
-    <a href="/reviews/catalyst.html">Catalyst</a>
+    <a href="/catalyst/">Catalyst</a>
 
-    <a href="/reviews/dbdepth.html">Database in Depth</a>
+    <a href="/dbdepth/">Database in Depth</a>
 
-    <a href="/reviews/mason.html">Embedding Perl in HTML with Mason</a>
+    <a href="/mason/">Embedding Perl in HTML with Mason</a>
 
-    <a href="/reviews/google-an.html">Google Analytics</a>
+    <a href="/fitness-for-geeks/">Fitness For Geeks</a>
 
-    <a href="/reviews/google-apps.html">Google Apps Hacks</a>
+    <a href="/google-an/">Google Analytics</a>
 
-    <a href="/reviews/html5.html">HTML5: Up and Running</a>
+    <a href="/google-apps/">Google Apps Hacks</a>
 
-    <a href="/reviews/mp-cook.html">mod_perl Developer's Cookbook</a>
+    <a href="/html5/">HTML5: Up and Running</a>
 
-    <a href="/reviews/website.html">Perl For Web Site Management</a>
+    <a href="/mp-cook/">mod_perl Developer's Cookbook</a>
 
-    <a href="/reviews/perlhacks.html">Perl Hacks</a>
+    <a href="/website/">Perl For Web Site Management</a>
 
-    <a href="/reviews/medic.html">Perl Medic</a>
+    <a href="/perlhacks/">Perl Hacks</a>
 
-    <a href="/reviews/prac-mp.html">Practical mod_perl</a>
+    <a href="/medic/">Perl Medic</a>
 
-    <a href="/reviews/rh-bible.html">Red Hat Linux 8 Bible</a>
+    <a href="/prac-mp/">Practical mod_perl</a>
 
-    <a href="/reviews/slash.html">Running Weblogs with Slash</a>
+    <a href="/rh-bible/">Red Hat Linux 8 Bible</a>
 
-    <a href="/reviews/catalyst-def.html">The Definitive Guide to Catalyst</a>
+    <a href="/slash/">Running Weblogs with Slash</a>
 
-    <a href="/reviews/socialmedia.html">The Social Media Marketing Book</a>
+    <a href="/catalyst-def/">The Definitive Guide to Catalyst</a>
 
-    <a href="/reviews/ap-perl.html">Web Development with Apache and Perl</a>
+    <a href="/socialmedia/">The Social Media Marketing Book</a>
 
-    <a href="/reviews/webmeas.html">Web Site Measurement Hacks</a>
+    <a href="/ap-perl/">Web Development with Apache and Perl</a>
 
-    <a href="/reviews/cgi-perl.html">Writing CGI Applications With Perl</a>
+    <a href="/webmeas/">Web Site Measurement Hacks</a>
 
-    <a href="/reviews/xmlperl.html">XML and Perl</a>
+    <a href="/cgi-perl/">Writing CGI Applications With Perl</a>
 
-    <a href="/reviews/xmlhacks.html">XML Hacks</a>
+    <a href="/xmlperl/">XML and Perl</a>
+
+    <a href="/xmlhacks/">XML Hacks</a>
 
       <hr />
       <a href="/">Back to Main Site</a>
     </div> 
 
-    <div class="content"> 
+    <div class="content">
     <h2>Book Review:<br />Practical mod_perl</h2> 
 
     <table> 
@@ -85,7 +87,7 @@
 
       <tr> 
         <th>Reviewer:</th> 
-        <td><a href="mailto:dave@dave.org.uk">Dave Cross</a></td> 
+        <td><a href="mailto:dave@davecross.co.uk">Dave Cross</a></td> 
       </tr> 
     </table> 
     <p class="buy"><img src="https://images.amazon.com/images/P/0596002270.jpg" /><br /> 
@@ -93,47 +95,54 @@
  
     <hr /> 
  
-    <p>At almost 900 pages, this is certainly the <i>biggest</i> book on
-<code>mod_perl</code> that has been published so far. In my opinion it's
-also one of the most useful.</p><p>Stas Bekman and Eric Cholet are two of the best-known and 
-(probably more importantly) most respected names in the <code>mod_perl</code>
+<p>At almost 900 pages, this is certainly the <em>biggest</em> book on
+<code>mod_perl</code> that has been published so far. In my opinion it’s
+also one of the most useful.</p>
+<p>Stas Bekman and Eric Cholet are two of the best-known and (probably
+more importantly) most respected names in the <code>mod_perl</code>
 community so you can be sure the the information you get in this book is
-going to be top quality.</p><p>Part 1 of the book is about <code>mod_perl</code> administration. It
-starts with an overview of what <code>mod_perl</code> is and how it relates
-to CGI and the Apache web server before going into a chapter which gives
-a quickstart guide to installing and using <code>mod_perl</code> on some
-of the most common platforms. Chapter three then goes back over the
-installation process in far more detail. Chapter four explains how to 
-configure <code>mod_perl</code> in various ways and chapter five cover
-monitoring, upgrading and maintaining your <code>mod_perl</code> enabled
-web server. Chapter 6 is full of advice about how to write Perl code
-that takes advantage of <code>mod_perl</code>'s features.</p><p>Part 2 is all about <code>mod_perl</code> performance and contains
-chapters about benchmarking and tuning your server. I found chapter twelve 
-to be particularly useful as it discusses a number of useful strategies
-for splitting server load between a <code>mod_perl</code> server for
-dynmaic content and a "plain" (non-<code>mod_perl</code>) server for
-static content. Other chapters in this section cover other strategies
-for improving performance by tuning Apache's configuration, changing
-your Apache and <code>mod_perl</code> build options and being cleverer
-about the HTTP headers that you return.</p><p>Most dynamic web sites have a database involved somewhere so part 3
+going to be top quality.</p>
+<p>Part 1 of the book is about <code>mod_perl</code> administration. It
+starts with an overview of what <code>mod_perl</code> is and how it
+relates to CGI and the Apache web server before going into a chapter
+which gives a quickstart guide to installing and using
+<code>mod_perl</code> on some of the most common platforms. Chapter
+three then goes back over the installation process in far more detail.
+Chapter four explains how to configure <code>mod_perl</code> in various
+ways and chapter five cover monitoring, upgrading and maintaining your
+<code>mod_perl</code> enabled web server. Chapter 6 is full of advice
+about how to write Perl code that takes advantage of
+<code>mod_perl</code>’s features.</p>
+<p>Part 2 is all about <code>mod_perl</code> performance and contains
+chapters about benchmarking and tuning your server. I found chapter
+twelve to be particularly useful as it discusses a number of useful
+strategies for splitting server load between a <code>mod_perl</code>
+server for dynmaic content and a “plain” (non-<code>mod_perl</code>)
+server for static content. Other chapters in this section cover other
+strategies for improving performance by tuning Apache’s configuration,
+changing your Apache and <code>mod_perl</code> build options and being
+cleverer about the HTTP headers that you return.</p>
+<p>Most dynamic web sites have a database involved somewhere so part 3
 covers using databases with <code>mod_perl</code>. Part 4 is all about
 debugging and troubleshooting your <code>mod_perl</code> server.
 Finally, part 5 looks at what has changed with the release of the
-forthcoming <code>mod_perl 2.0</code>.</p><p>And this isn't just theoretical stuff. The two authors have been
+forthcoming <code>mod_perl 2.0</code>.</p>
+<p>And this isn’t just theoretical stuff. The two authors have been
 involved in developing <code>mod_perl</code> for a long time but they
 are also <code>mod_perl</code> users. You can just tell from the way
 they write that the problems they discuss are problems they have dealt
-with. This is the voice (or, rather, voices) of experience.</p><p>A lot of the text in the book is based on the <code>mod_perl</code>
+with. This is the voice (or, rather, voices) of experience.</p>
+<p>A lot of the text in the book is based on the <code>mod_perl</code>
 guide which has been available on the web for some time, but all of the
-content has been revisited, updated and expanded. This book is not really
-in competition with books like <i>The <code>mod_perl</code> Developers
-Cookbook</i> or the older <i>Writing Apache Modules with Perl and C</i>
-as those books largely concentrate on how to write code for 
-<code>mod_perl</code> whereas the emphasis in this book is on configuring
-and administering a <code>mod_perl</code> server.</p><p>And if you are the administrator of a <code>mod_perl</code>
-server then you should really consider adding this book to your
-library.</p>
- 
+content has been revisited, updated and expanded. This book is not
+really in competition with books like <em>The <code>mod_perl</code>
+Developers Cookbook</em> or the older <em>Writing Apache Modules with
+Perl and C</em> as those books largely concentrate on how to write code
+for <code>mod_perl</code> whereas the emphasis in this book is on
+configuring and administering a <code>mod_perl</code> server.</p>
+<p>And if you are the administrator of a <code>mod_perl</code> server
+then you should really consider adding this book to your library.</p>
+
     </div>
     <div class="ads"> 
 <script type="text/javascript"><!--
@@ -153,14 +162,14 @@ google_color_text = "333333";
   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div> 
-<script type="text/javascript"> 
+<script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script> 
-<script type="text/javascript"> 
+</script>
+<script type="text/javascript">
 var pageTracker = _gat._getTracker("UA-56332-2");
 pageTracker._initData();
 pageTracker._trackPageview();
-</script> 
-  </body> 
+</script>
+  </body>
 </html> 

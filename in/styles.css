@@ -1,0 +1,183 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    background-image: url(bground.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    text-align: left;
+    color: #666;
+}
+
+th, th {
+    vertical-align: middle;
+    height: 2em;
+}
+
+th {
+    text-align: right;
+}
+
+address {
+    font-style: normal;
+    font-size: smaller;
+    color: #000000
+}
+
+pre {
+    font-family: "Courier New", Courier, fixed;
+}
+
+ul {
+    list-style-image: url(ul.gif);
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+  max-width: 20%;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.right  {
+    text-align: right;
+}
+
+.menu {
+    position: absolute; 
+    top: 80px; 
+    left: 0; 
+    width: 180px; 
+    height: 700px; 
+    font: 16px Verdana, sans-serif; 
+    z-index: 100;
+    font-size: smaller;
+    text-align: left;
+    color: #666;
+}
+
+.quote{
+    font-size: larger;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.squote{
+    font-style: italic;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.attrib{
+    font-style: italic;
+    margin-left: 40%;
+    text-align: right;
+}
+
+.menu p {
+    font-weight: bold;
+    padding: 5px 10px; 
+    margin: 0 0 1px; 
+    border-width: 0; 
+}
+
+.menu h3 {
+    text-align: left;
+    padding: 5px 10px; 
+    margin: 0 0 1px; 
+    border-width: 0;
+    background-color: #666;
+    color: white;
+}
+
+.menu a { 
+    display: block; 
+    text-align: left; 
+    font-weight: bold;
+    padding: 5px 10px; 
+    margin: 0 0 1px; 
+    border-width: 0; 
+    text-decoration: none; 
+    color: #ffffff; 
+    background: #999;
+    background-image: url(bground-d.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+}
+
+.menu a:hover {
+    color: #999; 
+    background: #ffffff;
+    background-image: url(bground.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+}
+
+.content {
+    position: absolute; 
+    top: 50px; 
+    left: 200px; 
+    right: 200px;
+    font: 13px Verdana, sans-serif; 
+    padding: 10px; 
+}
+
+.ads {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 150px;
+}
+
+.menu a span {
+    display: none;
+}
+
+.menu a:hover span {
+    display: block;
+    position: absolute; 
+    top: -75px; 
+    left: 0; 
+    width: 140px;
+    padding: 5px; 
+    margin: 10px; 
+    z-index: 100;
+    color: #990033; 
+    background: #ffffff;
+    font: 10px Verdana, sans-serif; 
+    text-align: center;
+    background-image: url(bground.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+}
+
+p.buy {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
