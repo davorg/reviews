@@ -1,101 +1,97 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Reviews</title>
-    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <!-- link rel="stylesheet" type="text/css" href="/styles.css"  -->
+    <style>
+      .nav-item:hover {
+        background-color: #f8f9fa; /* Light gray background on hover */
+      }
+    </style>
   </head>
-
   <body>
-    <h1>dave.org.uk</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-2 bg-light vh-100 overflow-auto">
+          <h3>Book reviews</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="/adv-webmet/">Advanced Web Metrics with Google Analytics</a></li>
+            <li class="nav-item"><a class="nav-link" href="/apache-pock/">Apache 2 Pocket Reference</a></li>
+            <li class="nav-item"><a class="nav-link" href="/catalyst/">Catalyst</a></li>
+            <li class="nav-item"><a class="nav-link" href="/dbdepth/">Database in Depth</a></li>
+            <li class="nav-item"><a class="nav-link" href="/mason/">Embedding Perl in HTML with Mason</a></li>
+            <li class="nav-item"><a class="nav-link" href="/fitness-for-geeks/">Fitness For Geeks</a></li>
+            <li class="nav-item"><a class="nav-link" href="/google-an/">Google Analytics</a></li>
+            <li class="nav-item"><a class="nav-link" href="/google-apps/">Google Apps Hacks</a></li>
+            <li class="nav-item"><a class="nav-link" href="/html5/">HTML5: Up and Running</a></li>
+            <li class="nav-item"><a class="nav-link" href="/mp-cook/">mod_perl Developer's Cookbook</a></li>
+            <li class="nav-item"><a class="nav-link" href="/website/">Perl For Web Site Management</a></li>
+            <li class="nav-item"><a class="nav-link" href="/perlhacks/">Perl Hacks</a></li>
+            <li class="nav-item"><a class="nav-link" href="/medic/">Perl Medic</a></li>
+            <li class="nav-item"><a class="nav-link" href="/prac-mp/">Practical mod_perl</a></li>
+            <li class="nav-item"><a class="nav-link" href="/rh-bible/">Red Hat Linux 8 Bible</a></li>
+            <li class="nav-item"><a class="nav-link" href="/slash/">Running Weblogs with Slash</a></li>
+            <li class="nav-item"><a class="nav-link" href="/catalyst-def/">The Definitive Guide to Catalyst</a></li>
+            <li class="nav-item"><a class="nav-link" href="/socialmedia/">The Social Media Marketing Book</a></li>
+            <li class="nav-item"><a class="nav-link" href="/ap-perl/">Web Development with Apache and Perl</a></li>
+            <li class="nav-item"><a class="nav-link" href="/webmeas/">Web Site Measurement Hacks</a></li>
+            <li class="nav-item"><a class="nav-link" href="/cgi-perl/">Writing CGI Applications With Perl</a></li>
+            <li class="nav-item"><a class="nav-link" href="/xmlperl/">XML and Perl</a></li>
+            <li class="nav-item"><a class="nav-link" href="/xmlhacks/">XML Hacks</a></li>
+          </ul>
+          <hr />
+          <a class="nav-link" href="/">Back to Main Site</a>
+        </nav>
+        <div class="col-10">
+          <h1>Dave's Books Reviews</h1>
+          <div class="content">
+                <h2>Google Apps Hacks</h2> 
 
-    <div class="menu">
-      <h3>Book reviews</h3>
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table">
+          <tr> 
+            <th>Author(s):</th> 
+            <td>Philipp Lenssen</td> 
+          </tr> 
+          <tr> 
+            <th>Publisher:</th> 
+            <td>O'Reilly (2008)</td> 
+          </tr> 
+          <tr> 
+            <th>ISBN:</th> 
+            <td>059651588X</td> 
+          </tr> 
 
+          <tr> 
+            <th>Web Site:</th> 
+            <td><a href="http://oreilly.com/catalog/9780596515881/">http://oreilly.com/catalog/9780596515881/</a></td> 
+          </tr>
 
-    <a href="/adv-webmet/">Advanced Web Metrics with Google Analytics</a>
-
-    <a href="/apache-pock/">Apache 2 Pocket Reference</a>
-
-    <a href="/catalyst/">Catalyst</a>
-
-    <a href="/dbdepth/">Database in Depth</a>
-
-    <a href="/mason/">Embedding Perl in HTML with Mason</a>
-
-    <a href="/fitness-for-geeks/">Fitness For Geeks</a>
-
-    <a href="/google-an/">Google Analytics</a>
-
-    <a href="/google-apps/">Google Apps Hacks</a>
-
-    <a href="/html5/">HTML5: Up and Running</a>
-
-    <a href="/mp-cook/">mod_perl Developer's Cookbook</a>
-
-    <a href="/website/">Perl For Web Site Management</a>
-
-    <a href="/perlhacks/">Perl Hacks</a>
-
-    <a href="/medic/">Perl Medic</a>
-
-    <a href="/prac-mp/">Practical mod_perl</a>
-
-    <a href="/rh-bible/">Red Hat Linux 8 Bible</a>
-
-    <a href="/slash/">Running Weblogs with Slash</a>
-
-    <a href="/catalyst-def/">The Definitive Guide to Catalyst</a>
-
-    <a href="/socialmedia/">The Social Media Marketing Book</a>
-
-    <a href="/ap-perl/">Web Development with Apache and Perl</a>
-
-    <a href="/webmeas/">Web Site Measurement Hacks</a>
-
-    <a href="/cgi-perl/">Writing CGI Applications With Perl</a>
-
-    <a href="/xmlperl/">XML and Perl</a>
-
-    <a href="/xmlhacks/">XML Hacks</a>
-
-      <hr />
-      <a href="/">Back to Main Site</a>
-    </div> 
-
-    <div class="content">
-    <h2>Book Review:<br />Google Apps Hacks</h2> 
-
-    <table> 
-      <tr> 
-        <th>Author(s):</th> 
-        <td>Philipp Lenssen</td> 
-      </tr> 
-      <tr> 
-        <th>Publisher:</th> 
-        <td>O'Reilly (2008)</td> 
-      </tr> 
-      <tr> 
-        <th>ISBN:</th> 
-        <td>059651588X</td> 
-      </tr> 
-
-      <tr> 
-        <th>Web Site:</th> 
-        <td><a href="http://oreilly.com/catalog/9780596515881/">http://oreilly.com/catalog/9780596515881/</a></td> 
-      </tr>
-
-      <tr> 
-        <th>Reviewer:</th> 
-        <td><a href="mailto:dave@davecross.co.uk">Dave Cross</a></td> 
-      </tr> 
-    </table> 
-    <p class="buy"><img src="https://images.amazon.com/images/P/059651588X.jpg" /><br /> 
-    <a href="http://www.amazon.co.uk/exec/obidos/ASIN/059651588X/davblog-21">Buy from Amazon</a></p> 
+          <tr> 
+            <th>Reviewer:</th> 
+            <td><a href="mailto:dave@davecross.co.uk">Dave Cross</a></td> 
+          </tr> 
+        </table> 
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="buy">
+          <img class="w-25" src="https://images.amazon.com/images/P/059651588X.jpg" /><br> 
+          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/059651588X/davblog-21">Buy from Amazon</a> 
+        </div>
+      </div>
+    </div>
  
     <hr /> 
  
-<p>I should confess that this book wasn’t what I thought it was. I was
+    <div class="row">
+      <div class="col-12">
+        <p>I should confess that this book wasn’t what I thought it was. I was
 interested in reading it because I misread the title. I thought it was
 about the Google App Engine - which is a technology that I really want
 to spend some time investigating. But it wasn’t about the Google App
@@ -154,34 +150,31 @@ of the chapters useful. Secondly, as I mentioned above, all of the
 Google applications are being updated and improved at an incredible
 rate, so this is definitely going to be a book with a rather short shelf
 life.</p>
-
+      </div>
     </div>
-    <div class="ads"> 
-<script type="text/javascript"><!--
-google_ad_client = "pub-3663319204757145";
-google_ad_width = 120;
-google_ad_height = 600;
-google_ad_format = "120x600_as";
-google_ad_type = "text";
-google_ad_channel ="1500923594";
-google_color_border = "CCCCCC";
-google_color_bg = "FFFFFF";
-google_color_link = "000000";
-google_color_url = "666666";
-google_color_text = "333333";
-//--></script>
-<script type="text/javascript"
-  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div> 
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-56332-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
+
+          </div>
+          <div class="ads">
+            <script type="text/javascript">
+              google_ad_client = "pub-3663319204757145";
+              google_ad_width = 120;
+              google_ad_height = 600;
+              google_ad_format = "120x600_as";
+              google_ad_type = "text";
+              google_ad_channel = "1500923594";
+              google_color_border = "CCCCCC";
+              google_color_bg = "FFFFFF";
+              google_color_link = "000000";
+              google_color_url = "666666";
+              google_color_text = "333333";
+            </script>
+            <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
   </body>
-</html> 
+</html>

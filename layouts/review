@@ -1,36 +1,48 @@
 [% WRAPPER page -%]
-    <h2>Book Review:<br />[% page.title %]</h2> 
+    <h2>[% page.title %]</h2> 
 
-    <table> 
-      <tr> 
-        <th>Author(s):</th> 
-        <td>[% page.author %]</td> 
-      </tr> 
-      <tr> 
-        <th>Publisher:</th> 
-        <td>[% page.publisher %] [% IF page.year %]([% page.year %])[% END %]</td> 
-      </tr> 
-      <tr> 
-        <th>ISBN:</th> 
-        <td>[% page.isbn %]</td> 
-      </tr> 
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table">
+          <tr> 
+            <th>Author(s):</th> 
+            <td>[% page.author %]</td> 
+          </tr> 
+          <tr> 
+            <th>Publisher:</th> 
+            <td>[% page.publisher %] [% IF page.year %]([% page.year %])[% END %]</td> 
+          </tr> 
+          <tr> 
+            <th>ISBN:</th> 
+            <td>[% page.isbn %]</td> 
+          </tr> 
 
 [% IF page.web -%]
-      <tr> 
-        <th>Web Site:</th> 
-        <td><a href="[% page.web %]">[% page.web %]</a></td> 
-      </tr>
+          <tr> 
+            <th>Web Site:</th> 
+            <td><a href="[% page.web %]">[% page.web %]</a></td> 
+          </tr>
 [% END -%]
 
-      <tr> 
-        <th>Reviewer:</th> 
-        <td><a href="mailto:[% page.reviewer.email || site.reviewer.email %]">[% page.reviewer.name || site.reviewer.name %]</a></td> 
-      </tr> 
-    </table> 
-    <p class="buy"><img src="https://images.amazon.com/images/P/[% page.isbn %].jpg" /><br /> 
-    <a href="http://www.amazon.co.uk/exec/obidos/ASIN/[% page.isbn %]/davblog-21">Buy from Amazon</a></p> 
+          <tr> 
+            <th>Reviewer:</th> 
+            <td><a href="mailto:[% page.reviewer.email || site.reviewer.email %]">[% page.reviewer.name || site.reviewer.name %]</a></td> 
+          </tr> 
+        </table> 
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="buy">
+          <img class="w-25" src="https://images.amazon.com/images/P/[% page.isbn %].jpg" /><br> 
+          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/[% page.isbn %]/davblog-21">Buy from Amazon</a> 
+        </div>
+      </div>
+    </div>
  
     <hr /> 
  
-[% content %]
+    <div class="row">
+      <div class="col-12">
+        [% content %]
+      </div>
+    </div>
 [% END -%]
