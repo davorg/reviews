@@ -26,14 +26,14 @@
 
           <tr> 
             <th>Reviewer:</th> 
-            <td><a href="mailto:[% page.reviewer.email || site.reviewer.email %]">[% page.reviewer.name || site.reviewer.name %]</a></td> 
+            <td><a href="[% page.reviewer.link || site.reviewer.link %]">[% page.reviewer.name || site.reviewer.name %]</a></td> 
           </tr> 
         </table> 
       </div>
       <div class="col-4 text-center">
         <div class="buy">
-          <img class="w-25" src="https://images.amazon.com/images/P/[% page.isbn %].jpg" /><br> 
-          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/[% page.isbn %]/davblog-21">Buy from Amazon</a> 
+          <img class="w-50 drop-shadow" src="https://images.amazon.com/images/P/[% page.isbn %].jpg" /><br> 
+          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/[% page.isbn %]/?tag=davblog-21" class="btn btn-primary mt-2">Buy from Amazon</a> 
         </div>
       </div>
     </div>
