@@ -2,3 +2,50 @@ reviewer:
   email: dave@davecross.co.uk
   name: Dave Cross
 ga4: G-XK53RN4H4R
+books:
+  - title: Advanced Web Metrics with Google Analytics
+    slug: adv-webmet
+  - title: Apache 2 Pocket Reference
+    slug: apache-pock
+  - title: Catalyst
+    slug: catalyst
+  - title: Database in Depth
+    slug: dbdepth
+  - title: Embedding Perl in HTML with Mason
+    slug: mason
+  - title: Fitness For Geeks
+    slug: fitness-for-geeks
+  - title: Google Analytics
+    slug: google-an
+  - title: Google Apps Hacks
+    slug: google-apps
+  - title: 'HTML5: Up and Running'
+    slug: html5
+  - title: mod_perl Developer's Cookbook
+    slug: mp-cook
+  - title: Perl For Web Site Management
+    slug: website
+  - title: Perl Hacks
+    slug: perlhacks
+  - title: Perl Medic
+    slug: medic
+  - title: Practical mod_perl
+    slug: prac-mp
+  - title: Red Hat Linux 8 Bible
+    slug: rh-bible
+  - title: Running Weblogs with Slash
+    slug: slash
+  - title: The Definitive Guide to Catalyst
+    slug: catalyst-def
+  - title: The Social Media Marketing Book
+    slug: socialmedia
+  - title: Web Development with Apache and Perl
+    slug: ap-perl
+  - title: Web Site Measurement Hacks
+    slug: webmeas
+  - title: Writing CGI Applications With Perl
+    slug: cgi-perl
+  - title: XML and Perl
+    slug: xmlperl
+  - title: XML Hacks
+    slug: xmlhacks

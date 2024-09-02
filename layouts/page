@@ -31,29 +31,9 @@
         <nav class="col-2 bg-light vh-100 overflow-auto">
           <h3>Book reviews</h3>
           <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="/adv-webmet/">Advanced Web Metrics with Google Analytics</a></li>
-            <li class="nav-item"><a class="nav-link" href="/apache-pock/">Apache 2 Pocket Reference</a></li>
-            <li class="nav-item"><a class="nav-link" href="/catalyst/">Catalyst</a></li>
-            <li class="nav-item"><a class="nav-link" href="/dbdepth/">Database in Depth</a></li>
-            <li class="nav-item"><a class="nav-link" href="/mason/">Embedding Perl in HTML with Mason</a></li>
-            <li class="nav-item"><a class="nav-link" href="/fitness-for-geeks/">Fitness For Geeks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/google-an/">Google Analytics</a></li>
-            <li class="nav-item"><a class="nav-link" href="/google-apps/">Google Apps Hacks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/html5/">HTML5: Up and Running</a></li>
-            <li class="nav-item"><a class="nav-link" href="/mp-cook/">mod_perl Developer's Cookbook</a></li>
-            <li class="nav-item"><a class="nav-link" href="/website/">Perl For Web Site Management</a></li>
-            <li class="nav-item"><a class="nav-link" href="/perlhacks/">Perl Hacks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/medic/">Perl Medic</a></li>
-            <li class="nav-item"><a class="nav-link" href="/prac-mp/">Practical mod_perl</a></li>
-            <li class="nav-item"><a class="nav-link" href="/rh-bible/">Red Hat Linux 8 Bible</a></li>
-            <li class="nav-item"><a class="nav-link" href="/slash/">Running Weblogs with Slash</a></li>
-            <li class="nav-item"><a class="nav-link" href="/catalyst-def/">The Definitive Guide to Catalyst</a></li>
-            <li class="nav-item"><a class="nav-link" href="/socialmedia/">The Social Media Marketing Book</a></li>
-            <li class="nav-item"><a class="nav-link" href="/ap-perl/">Web Development with Apache and Perl</a></li>
-            <li class="nav-item"><a class="nav-link" href="/webmeas/">Web Site Measurement Hacks</a></li>
-            <li class="nav-item"><a class="nav-link" href="/cgi-perl/">Writing CGI Applications With Perl</a></li>
-            <li class="nav-item"><a class="nav-link" href="/xmlperl/">XML and Perl</a></li>
-            <li class="nav-item"><a class="nav-link" href="/xmlhacks/">XML Hacks</a></li>
+[% FOR book IN site.books -%]
+            <li class="nav-item"><a class="nav-link" href="/[% book.slug %]/">[% book.title %]</a></li>
+[% END -%]
           </ul>
           <hr />
           <a class="nav-link" href="/">Back to Main Site</a>
