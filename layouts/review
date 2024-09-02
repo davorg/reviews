@@ -30,7 +30,7 @@
           </tr> 
         </table> 
       </div>
-      <div class="col-md-4 text-center">
+      <div class="col-4 text-center">
         <div class="buy">
           <img class="w-25" src="https://images.amazon.com/images/P/[% page.isbn %].jpg" /><br> 
           <a href="http://www.amazon.co.uk/exec/obidos/ASIN/[% page.isbn %]/davblog-21">Buy from Amazon</a> 
@@ -41,7 +41,7 @@
     <hr /> 
  
     <div class="row">
-      <div class="col-12">
+      <div class="col-10">
         [% content %]
       </div>
     </div>
