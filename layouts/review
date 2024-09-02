@@ -2,7 +2,7 @@
     <h2>[% page.title %]</h2> 
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-8">
         <table class="table">
           <tr> 
             <th>Author(s):</th> 
@@ -39,7 +39,7 @@
     </div>
  
     <div class="row">
-      <div class="col-10">
+      <div class="col-12">
         <hr>
         [% content %]
       </div>

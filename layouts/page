@@ -32,18 +32,16 @@
     <div class="container-fluid">
       <div class="row">
         <nav class="col-2 bg-light vh-100 overflow-auto">
-          <h3>Book reviews</h3>
+          <a href="/"><h3>Book reviews</h3></a>
           <ul class="nav flex-column">
 [% FOR book IN site.books -%]
             <li class="nav-item"><a class="nav-link" href="/[% book.slug %]/">[% book.title %]</a></li>
 [% END -%]
           </ul>
-          <hr />
-          <a class="nav-link" href="/">Back to Main Site</a>
         </nav>
-        <div class="col-10">
+        <div class="col-8">
           <h1>Dave's Book Reviews</h1>
-          <div class="content">
+          <div class="content pt-5">
             [% content %]
           </div>
           <div class="ads">
