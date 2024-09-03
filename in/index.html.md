@@ -1,6 +1,6 @@
 
 I recently moved my personal website from WordPress to a static site hosted
-on [GitHubPages](https://pages.github.com/). Whilst going through all of the
+on [GitHub Pages](https://pages.github.com/). Whilst going through all of the
 pages that needed to be converted, I found this set of book reviews that I
 had written between 2001 and 2012.
 
