@@ -26,6 +26,9 @@
       .drop-shadow {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
       }
+      .footer-border-top {
+        border-top: 1px solid #d3d3d3;
+      }
     </style>
   </head>
   <body>
@@ -41,13 +44,13 @@
         </nav>
         <div class="col-8">
           <h1>Dave's Book Reviews</h1>
-          <div class="content pt-5">
+          <div class="content py-5">
             [% content %]
           </div>
         </div>
       </div>
     </div>
-    <footer class="fixed-bottom bg-light text-center py-3">
+    <footer class="footer-border-top fixed-bottom bg-light text-center py-3">
       <div class="container">
         <span class="text-muted">Made by <a href="https://links.davecross.co.uk/">Dave Cross</a> /
           Code on <a href="https://github.com/davorg/reviews/">Github</a></span>
