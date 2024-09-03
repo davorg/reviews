@@ -31,7 +31,7 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <nav class="col-2 bg-light vh-100 overflow-auto">
+        <nav class="col-2 bg-light vh-100 overflow-auto pb-3">
           <a href="/"><h3>Book reviews</h3></a>
           <ul class="nav flex-column">
 [% FOR book IN site.books -%]
