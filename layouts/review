@@ -32,7 +32,8 @@
       </div>
       <div class="col-4 text-center">
         <div class="buy">
-          <img class="w-50 drop-shadow" src="https://images.amazon.com/images/P/[% page.isbn %].jpg" /><br> 
+          <img class="w-50 drop-shadow" src="https://images.amazon.com/images/P/[% page.isbn %].jpg"
+               alt="[% page.title %]"/><br> 
           <a href="http://www.amazon.co.uk/exec/obidos/ASIN/[% page.isbn %]/?tag=davblog-21" class="btn btn-primary mt-2">Buy from Amazon</a> 
         </div>
       </div>
