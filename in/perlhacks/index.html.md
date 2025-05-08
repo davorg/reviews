@@ -1,6 +1,6 @@
 ---
 title: Perl Hacks
-authors: chromatic with Damian Conway and Curtis "Ovid" Poe</td> 
+author: chromatic with Damian Conway and Curtis "Ovid" Poe
 publisher: O'Reilly
 year: 2006
 isbn: 0596526741
