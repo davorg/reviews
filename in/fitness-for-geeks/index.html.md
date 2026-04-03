@@ -11,7 +11,7 @@ layout: review
 There's a movement afoot in the geek world. After decades of sitting in front
 of screens and only eating flat food we're finally realising that this
 lifestyle isn't that good for us. And many of us have decided to do something
-about it.Of course, being geeks we see fitness as a phenomena to be
+about it. Of course, being geeks we see fitness as a phenomena to be
 investigated, a problem to be solved. As a result we now have books like
 *Fitness For Geeks* which examines all of the areas that you need to consider
 when trying to get fit and presents them in a way that that appeals to the

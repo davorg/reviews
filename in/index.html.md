@@ -1,4 +1,4 @@
-
+<div class="prose">
 I recently moved my personal website from WordPress to a static site hosted
 on [GitHub Pages](https://pages.github.com/). Whilst going through all of the
 pages that needed to be converted, I found this set of book reviews that I
@@ -29,3 +29,4 @@ Oh, and all of the links to the publishers catalogues are "http" instead of
 "https".
 
 Enjoy the reviews...
+</div>

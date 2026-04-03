@@ -149,21 +149,122 @@
           border-bottom: 1px solid var(--border);
         }
 
-        .sidebar-inner {
-          position: static;
-          max-height: none;
-        }
-
-        .content-wrap {
-          padding-top: 1.25rem;
-        }
-
-        .review-nav .nav-link {
-          padding-left: 0;
-          padding-right: 0;
-          border-radius: 0;
-        }
+      .sidebar .site-title {
+        font-size: 1.8rem;
+        line-height: 1.1;
       }
+
+      .sidebar-inner {
+        position: static;
+        max-height: none;
+      }
+
+      .content-wrap {
+        padding-top: 1.25rem;
+      }
+
+      .review-nav .nav-link {
+        font-size: 0.95rem;
+        line-height: 1.35;
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: 0;
+      }
+    }
+
+  .review-nav .nav-link:hover {
+    text-decoration: underline;
+    background: none;
+  }
+
+  .book-header {
+    margin-bottom: 1rem;
+  }
+
+  .book-meta {
+    background: #f7f3e8;
+    border: 1px solid #ddd4bf;
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .book-meta div + div {
+    margin-top: 0.55rem;
+  }
+
+  .book-cover {
+    max-width: 180px;
+    height: auto;
+  }
+
+  .btn-amazon {
+    background: #c97f1a;
+    border-color: #b96f0a;
+    color: white;
+  }
+
+  .btn-amazon:hover {
+    background: #a96508;
+    border-color: #9c5d05;
+    color: white;
+  }
+
+  @media (max-width: 991.98px) {
+    .buy {
+      text-align: left !important;
+    }
+
+    .book-cover {
+      max-width: 140px;
+    }
+  }
+
+  .prose {
+    max-width: 65ch;
+  }
+
+  .btn-outline-secondary {
+    border-color: #bfae84;
+    color: #5c4a1a;
+  }
+
+  .btn-outline-secondary:hover {
+    background: #efe4c8;
+    border-color: #bfae84;
+    color: #5c4a1a;
+  }
+
+  @media (min-width: 992px) {
+    #reviewsMenu {
+      position: static;
+      transform: none !important;
+      visibility: visible !important;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      width: auto;
+    }
+
+    #reviewsMenu .offcanvas-header {
+      display: none;
+    }
+
+    #reviewsMenu .offcanvas-body {
+      display: block;
+      padding: 1rem 1.5rem;
+      overflow-y: auto;
+    }
+
+    #reviewsMenu .sidebar-inner {
+      position: sticky;
+      top: 1rem;
+      max-height: calc(100vh - 2rem);
+      overflow-y: auto;
+    }
+  }
+
+  .offcanvas {
+    background: var(--sidebar-bg);
+  }
     </style>
   </head>
 
@@ -174,26 +275,43 @@
       </div>
     </div>
 
+    <div class="d-lg-none bg-light border-bottom px-3 py-2">
+      <button class="btn btn-outline-secondary" type="button"
+              data-bs-toggle="offcanvas" data-bs-target="#reviewsMenu"
+              aria-controls="reviewsMenu">
+        ☰ Book reviews
+      </button>
+    </div>
+
     <div class="container-fluid site-shell">
       <div class="row">
-        <aside class="col-lg-3 col-xl-2 sidebar px-0">
-          <div class="sidebar-inner p-3 p-lg-4">
-            <a href="/" class="site-title fs-2 d-inline-block mb-3">Book reviews</a>
-            <p class="text-muted small mb-4">
-              A preserved collection of Dave Cross's reviews of technical books from the early 2000s.
-            </p>
+        <div class="col-lg-3 col-xl-2">
+          <aside class="sidebar px-0 offcanvas offcanvas-start offcanvas-lg"
+                 tabindex="-1" id="reviewsMenu">
 
-            <nav aria-label="Book reviews navigation">
-              <ul class="nav flex-column review-nav gap-1">
+            <div class="offcanvas-header d-lg-none">
+              <h5 class="offcanvas-title">Book reviews</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="sidebar-inner p-3 p-lg-4 offcanvas-body">
+              <a href="/" class="site-title fs-2 d-inline-block mb-3">Book reviews</a>
+              <p class="text-muted small mb-4">
+                A preserved collection of Dave Cross's reviews of technical books from the early 2000s.
+              </p>
+
+              <nav aria-label="Book reviews navigation">
+                <ul class="nav flex-column review-nav gap-1">
 [% FOREACH book IN site.books; %]
-                <li class="nav-item"><a class="nav-link" href="/[% book.slug %]">[% book.title %]</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/[% book.slug %]">[% book.title %]</a></li>
 [% END %]
-              </ul>
-            </nav>
-          </div>
-        </aside>
+                </ul>
+              </nav>
+            </div>
+          </aside>
+        </div>
 
-        <main class="col-lg-9 col-xl-10">
+        <main class="col-12 col-lg-9 col-xl-10">
           <div class="content-wrap px-3 px-md-4 px-xl-5">
             <section class="hero-card p-4 p-md-5 mb-4">
               <div class="eyebrow mb-2">Archive</div>
@@ -204,9 +322,7 @@
             </section>
 
             <section class="content-card p-4 p-md-5">
-              <div class="prose">
 [% content %]
-              </div>
             </section>
           </div>
         </main>
