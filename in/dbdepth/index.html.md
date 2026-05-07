@@ -8,11 +8,11 @@ layout: review
 ---
  
 Many years ago when I was a student we were taught database theory. Although
-Ted Codd's paper A Relational Model of Data for Large Shared Data Banks had
+Ted Codd's paper "A Relational Model of Data for Large Shared Data Banks" had
 been published fifteen years earlier, relational databases hadn't yet become
-the dominant species and we were taught a number of alternatives (does anyone
-else remember Codasyl?) systems - relational databases and SQL were just the
-newest option.
+the dominant species and we were taught a number of alternative systems
+(does anyone else remember Codasyl?) - relational databases and SQL were just
+the newest option.
 
 Of course, once I left college and started working for a living, it wasn't
 long before relational databases were the only game in town. And over the
